@@ -1,0 +1,41 @@
+.fields {
+  align-self: center;
+}
+
+.fields input {
+  font-size: 1.4rem;
+}
+
+.field-error {
+  font-size: 0.85rem;
+  transition: all 800ms ease-in-out;
+  color: var(--brand-dark-red);
+  animation: slide-in-left 200ms ease-in-out forwards;
+}
+
+[type="submit"] {
+  background-color: var(--brand-blue);
+  padding: 1rem 0;
+  width: 100%;
+}
+
+label,
+.decorator {
+  color: var(--brand-gray);
+}
+
+.decorator::before {
+  content: "\296F";
+  display: block;
+  text-align: center;
+}
+
+.field {
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+}
+
+.field label {
+  flex: 0;
+  min-width: 4rem;
+}

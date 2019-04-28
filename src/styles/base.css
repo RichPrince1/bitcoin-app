@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron|Krub|Montserrat");
+* {
+  font-family: "Krub", sans-serif;
+}
+
+body {
+  font-size: 1.1rem;
+}
+
+form {
+  width: 100%;
+}
+
+button,
+legend,
+h2,
+.menu a,
+.logo {
+  font-family: var(--brand-headings);
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}

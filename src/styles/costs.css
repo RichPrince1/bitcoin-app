@@ -1,0 +1,17 @@
+.costs .cost:not(:last-child) {
+  border-bottom: 1px dashed var(--brand-blue);
+}
+
+.cost {
+  align-items: center;
+  justify-content: center;
+}
+
+.costs b {
+  font-weight: normal;
+}
+
+.costs span {
+  color: var(--brand-blue);
+  justify-content: flex-end;
+}

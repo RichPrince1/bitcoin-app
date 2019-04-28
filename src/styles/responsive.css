@@ -1,0 +1,14 @@
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .page {
+    flex-direction: row;
+  }
+  .header,
+  .form {
+    flex-direction: column;
+  }
+  .ticker {
+    width: 100%;
+    margin: 0.25rem;
+  }
+}

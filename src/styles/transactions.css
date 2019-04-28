@@ -1,0 +1,25 @@
+/* Styles for each Transaction type */
+.buy,
+.sell {
+  padding: 1rem;
+  margin: 0.5rem;
+}
+.buy {
+  border: 1px solid var(--brand-gray);
+  border-bottom: 5px solid var(--brand-blue);
+  border-left: 5px solid var(--brand-blue);
+}
+
+.buy h2 {
+  color: var(--brand-blue);
+}
+
+.sell {
+  border: 1px solid var(--brand-gray);
+  border-bottom: 5px solid var(--brand-green);
+  border-left: 5px solid var(--brand-green);
+}
+
+.sell h2 {
+  color: var(--brand-green);
+}
